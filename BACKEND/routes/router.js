@@ -43,7 +43,8 @@ router.get("/getrequist", async (req, res) => {
 
 router.get("/getUser", async (req, res) => {
     try {
-        console.log("thisj")
+        console.log("thisj");
+        res.status(201).json("successfull");
         // console.log(req.params)
         // const { id } = req.params
         // const userindividual = await users.findById({ _id: id })
