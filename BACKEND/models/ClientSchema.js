@@ -1,25 +1,25 @@
 const { mongoose } = require('mongoose');
 
-const userSchema=new mongoose.Schema(
+const ClientSchema =new mongoose.Schema(
     {
         name:{
             type:String,
             required:true
         },
-        country:{
+        image:{
             type:String,
             require:true
         },
-        email:{
+        discription:{
             type:String,
             require:true
         },
-        Score:{
-            type:Number,
+        desiganation:{
+            type:String,
             require
         }       
     }
 )
 
-const users=new mongoose.model("Users",userSchema)
-module.exports=users;
+const CLIENT=new mongoose.model("happyclient",ClientSchema)
+module.exports=CLIENT;

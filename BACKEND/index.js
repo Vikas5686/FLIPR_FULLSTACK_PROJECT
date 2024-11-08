@@ -5,7 +5,7 @@ const cors = require("cors")
 const { mongoose } = require('mongoose');
 
 require("./db/connection")
-const users = require("./models/userSchema")
+const OUR_PROJECT = require("./models/ProjectShema")
 const router =require("./routes/router")
 
 const port = 3000;
