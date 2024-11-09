@@ -50,3 +50,5 @@
 
 
 // 2. FRONTEND :- CREATING FRONTEND AND SYNC THE THINGS TOGETHER
+                1. first connecting FRONTEND page to the backend by performing crud operations by functions
+                2. creating admin adding FEATURES on landing page geting data on the landing

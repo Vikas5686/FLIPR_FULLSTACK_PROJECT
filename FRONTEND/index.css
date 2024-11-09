@@ -1,0 +1,77 @@
+ul{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 170px;
+    margin: auto;
+    display: block;
+}
+.contactbtn{
+    font-weight: bold;
+    border-color: none;
+    border-radius: 2px;
+    width: 150px;
+    color: white;
+    background: #ff7c00;
+    border: none;
+    border-radius: 10px;
+}
+li{
+    list-style: none;
+    margin: 10px 20px;
+    font-weight: bold;
+    width: auto;
+}
+.rowimage{
+    background-image: url("./young-couple-examining-blueprints-with-real-estate-agent-while-buying-new-home\ 1.svg");
+    background-size: cover;
+    width: 100%;
+    height: 72vh;
+}
+.heading{
+    font-weight: bolder;
+    color: white;
+
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.contactform{
+    width: 252px;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    background: #0000009e;
+    color: white;
+    height: 280px;
+    padding: 15px
+}
+input{
+    background-color: transparent;
+    margin: 5px !important;
+}
+.e1{
+    width: 300px;
+    position: relative;
+    top: 70px;
+}
+.e2{
+    width: 250px;
+    position: relative;
+    right: -5px;
+}
+.e3{
+    position: relative;
+    left: 260px;
+    bottom: 30px;
+    width: 210px;
+}
+
+.e1heading{
+    color: blue;
+    font-weight: bold;
+    margin-top: 100px;
+}
